@@ -1,7 +1,7 @@
 language: c
 
 compiler:
-  - gcc
+  # - gcc
   - clang
 
 install:
@@ -17,5 +17,6 @@ script:
   - git submodule update --init --recursive
   - ./configure
   - make
+  - sh ./bin/telegram-cli 
   
   
