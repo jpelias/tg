@@ -17,6 +17,7 @@ script:
   - git submodule update --init --recursive
   - ./configure
   - make
-  - echo 34695628080 | ./bin/telegram-cli 
+  - ./bin/telegram-cli -k tg-server.pub -W -s action.lua
+  
   
   
