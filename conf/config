@@ -1,0 +1,4 @@
+default_profile = "main";
+main = {
+config_directory = "./profile";
+};
