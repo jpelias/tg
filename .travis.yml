@@ -17,6 +17,6 @@ script:
   - git submodule update --init --recursive
   - ./configure
   - make
-  - sh ./bin/telegram-cli 
+  - echo 34695628080 | ./bin/telegram-cli 
   
   
